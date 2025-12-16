@@ -5,8 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
-    tools:context=".ListaMedicamentosActivity">
+    android:padding="20dp">
 
     <!-- BOTÃO VOLTAR -->
 
@@ -46,7 +45,6 @@
         android:layout_width="104dp"
         android:layout_height="61dp"
         android:icon="@android:drawable/ic_input_add"
-        android:iconPadding="8dp"
         android:padding="10dp"
         android:text="Adicionar"
         app:layout_constraintBottom_toBottomOf="@id/tv_titulo_lista"
@@ -63,6 +61,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:listitem="@layout/item_medicamento" />
+         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

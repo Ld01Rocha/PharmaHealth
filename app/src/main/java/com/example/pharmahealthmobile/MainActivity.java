@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         // Seu código original:
         // EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_alertas);
+        setContentView(R.layout.activity_main);
 
         // 2. HABILITA A SETA DE VOLTAR
         // Verifica se a ActionBar existe para evitar erros
